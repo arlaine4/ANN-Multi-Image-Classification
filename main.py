@@ -21,7 +21,7 @@ class_names = ['0 Top/T-shirt',
 				'6 Shirt',
 				'7 Sneaker',
 				'8 Bag',
-				'Ankle boot']
+				'9 Ankle boot']
 
 def	normalize_and_flatten_data(train, test):
 	#We normalize the data by dividing it by 255.0
