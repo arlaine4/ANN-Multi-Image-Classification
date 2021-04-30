@@ -88,4 +88,7 @@ if __name__ == "__main__":
 		(np.sum(yhat == y_test) / y_test.shape[0]) * 100))
 
 	#Confusion matrix
-	plot_confusion_matrox(y_test, y_hat)
+	cm = confusion_matrix(y_test, yhat)
+	print(cm)
+	acc_cm = accuracy_score(y_test, yhat)
+	#plot_confusion_matrix(y_test, y_hat)
